@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#2A0404"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="Profile Picture"
+        app:srcCompat="@drawable/mely" />
+
+    <EditText
+        android:id="@+id/matricule_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matricule"
+        android:backgroundTint="#B19CD9"
+        android:textColorHint="#B19CD9" />
+
+    <EditText
+        android:id="@+id/nom_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:backgroundTint="#B19CD9"
+        android:textColorHint="#B19CD9" />
+
+    <EditText
+        android:id="@+id/prenom_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenom"
+        android:backgroundTint="#B19CD9"
+        android:textColorHint="#B19CD9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/ajouter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#B19CD9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/charcher_button"
+            android:layout_width="114dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#B19CD9"
+            android:text="chercher" />
+
+        <Button
+            android:id="@+id/supprimer_button"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#B19CD9"
+            android:text="Supprimer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/ajouter_button"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#B19CD9"
+            android:text="Modifier" />
+
+        <Button
+            android:id="@+id/afficher_button"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#B19CD9"
+            android:text="afficher" />
+    </LinearLayout>
+
+</LinearLayout>
